@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    color: rgb(121, 24, 121);
+}
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color:rgb(23, 23, 23);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  input{
+    width: 290px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: larger;
+  }
+  .keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    margin-top: 10px;
+    
+  }
+  
+  button {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(101, 101, 101);
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  button:hover {
+    background-color: rgb(132, 132, 159);
+  }
+  
+  .operator {
+    background-color: orange;
+    color: #fff;
+    font-size: 25px;
+  }
